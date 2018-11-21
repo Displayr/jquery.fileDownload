@@ -14,7 +14,7 @@
 * !!!!NOTE!!!!
 */
 
-(function($, window){
+(function($){
 	// i'll just put them here to get evaluated on script load
 	var htmlSpecialCharsRegEx = /[<>&\r\n"']/gm;
 	var htmlSpecialCharsPlaceHolders = {
@@ -490,4 +490,4 @@ $.extend({
     }
 });
 
-})(jQuery, this || window);
+})(jQuery);
